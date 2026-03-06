@@ -15,6 +15,12 @@ pipeline {
             }
         }
 
+        stage('Run Tests') {
+            steps {
+                bat 'npm test'
+            }
+        }
+
         stage('Start Application') {
             steps {
                 bat 'start /B node serveur.js'
