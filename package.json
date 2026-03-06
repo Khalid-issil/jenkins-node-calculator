@@ -1,0 +1,16 @@
+{
+  "name": "jenkins-node-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start": "node serveur.js",
+  "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
